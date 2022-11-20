@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jodotnetmodules"
+version = "0.0.3"
+authors = [
+  { name="JoDotNet", email="" },
+]
+description = "Useful features that you can use with a Discord Bot"
+readme = "README.md"
+requires-python = ">=3.11.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JoDotNet/JoDotNetModules"
+"Bug Tracker" = "https://github.com/JoDotNet/JoDotNetModules/issues"
